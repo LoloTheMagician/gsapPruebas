@@ -1,2 +1,3 @@
 # gsapPruebas
-Pruebas con la libreria GSAP para hacer animaciones en JS
+
+Pruebas con la libreria _GSAP_ para hacer animaciones en JS
