@@ -66,3 +66,13 @@
     /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
     overflow: hidden;
 }
+
+.white-space{
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
