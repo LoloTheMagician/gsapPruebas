@@ -12,6 +12,12 @@ timeline.to('.rectangle', {
     borderRadius: 100,
 }, '+=.5') 
 
+timeline.to('.circle', {
+    y: 100,
+    borderRadius: 0,
+    ease: 'bounce',
+    duration: 1
+})
 
 
 

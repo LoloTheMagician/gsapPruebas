@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LoloTheMagician/gsapPruebas#readme",
   "dependencies": {
-    "gsap": "^3.12.5"
+    "gsap": "^3.12.5",
+    "spltjs": "^1.1.0"
   }
 }
