@@ -1,51 +1,67 @@
-/* :root {
+:root {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-} */
+}
 
-.box{
+.box {
     width: 100px;
     height: 100px;
     background-color: lightgreen;
 }
 
-.blue{
+.blue {
     background-color: #08A;
 }
 
-.violet{
+.violet {
     background-color: #8000AA;
 }
 
-.red{
+.red {
     background-color: #d21;
 }
 
-.circle-wrapper{
+.circle-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
 }
 
-.circle{
+.circle {
     /* background-color: ghostwhite; */
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.square{
+.square {
     width: 75px;
     height: 75px;
 }
 
-.rectangle{
+.rectangle {
     width: 150px;
     height: 100px;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+
+    & * {
+        color: #21da;
+        font-size: 2rem;
+        font-weight: bolder;
+        padding: .25rem;
+    }
+}
+
+#title-father {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }

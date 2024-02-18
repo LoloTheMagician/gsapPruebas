@@ -1,7 +1,7 @@
 
 import { gsap } from '../node_modules/gsap/index.js'
 
-let timeline = gsap.timeline({repeat: 1, yoyo: true})
+let timeline = gsap.timeline({repeat: 1,})
 
 timeline.to('.square', {
     x: 100,
