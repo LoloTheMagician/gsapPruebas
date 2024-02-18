@@ -1,4 +1,17 @@
 
+import { gsap } from '../node_modules/gsap/index.js'
+
+let timeline = gsap.timeline()
+
+timeline.to('.square', {
+    x: 100,
+    borderRadius: 50
+})
+
+timeline.to('.rectangle', {
+    borderRadius: 100,
+})
+
 // const divs = ['rectangle', 'square']
 
 // gsap.from(divs.map(div => '.' + div), {
@@ -21,3 +34,4 @@
 
 //     duration : 2,
 // })
+
