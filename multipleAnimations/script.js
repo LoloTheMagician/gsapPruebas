@@ -9,7 +9,8 @@ const COLORS = {
 
 const randomColor = () => {
     const colorsLen = Object.keys(COLORS).length
-    const color = Math.floor(Math.random() * colorsLen)
+    const color =
+        Math.floor(Math.random() * colorsLen)
     return COLORS[
         Object.keys(COLORS)[color]
     ]
@@ -19,7 +20,6 @@ const randomColor = () => {
 gsap.to('.circle', {
     y: 100,
     backgroundColor: () => randomColor(),
-    // opacity: 0,
 
     duration: 2,
     stagger: .25,
