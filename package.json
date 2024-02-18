@@ -2,7 +2,7 @@
   "name": "gsappruebas",
   "version": "1.0.0",
   "description": "Pruebas con la libreria _GSAP_ para hacer animaciones en JS",
-  "main": "script.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

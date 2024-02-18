@@ -1,6 +1,6 @@
-:root {
+/* :root {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-}
+} */
 
 .box{
     width: 100px;
@@ -8,9 +8,16 @@
     background-color: lightgreen;
 }
 
+.blue{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
 .circle-wrapper{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .circle{
