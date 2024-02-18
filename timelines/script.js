@@ -1,16 +1,19 @@
 
 import { gsap } from '../node_modules/gsap/index.js'
 
-let timeline = gsap.timeline()
+let timeline = gsap.timeline({repeat: 1, yoyo: true})
 
 timeline.to('.square', {
     x: 100,
-    borderRadius: 50
+    borderRadius: 50, 
 })
 
 timeline.to('.rectangle', {
     borderRadius: 100,
-})
+}, '+=.5') 
+
+
+
 
 // const divs = ['rectangle', 'square']
 
